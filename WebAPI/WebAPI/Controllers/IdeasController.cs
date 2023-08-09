@@ -9,16 +9,8 @@ namespace WebAPI.Controllers
     [ApiController]
     public class IdeasController : ControllerBase
     {
-
-
-
-
-
         private List<Idea> Ideas = new();
         private MySqlConnection conn = null;
-
-
-
         private string connStr = $"server=176.58.104.78;user=user;database=it_ideas;password=;";
 
 
@@ -26,18 +18,12 @@ namespace WebAPI.Controllers
         [HttpGet]
         public IEnumerable<string> Get()
         {
+            // Returns Names of all Ideas
 
             if(Ideas.Count != 0)
             {
                 return Enumerable.Range(0, Ideas.Count).Select(x => Ideas[x].Name).ToList();
             }
-
-            List<string> ret = new();
-            // DBConnection con = new DBConnection();
-
-            // DBConnection.dataSource();
-            // con.connOpen();
-
 
             conn = new MySqlConnection(connStr);
 
@@ -63,22 +49,15 @@ namespace WebAPI.Controllers
                     });
             }
 
-
-
-
-
             conn.Close();
             return Enumerable.Range(0, Ideas.Count).Select(x => Ideas[x].Name).ToList();
-
-
         }
 
         // GET api/<IdeasController>/5
         [HttpGet("{id}")]
         public IEnumerable<string> Get(string id)
         {
-
-
+            // Returns either, Name, Description, Id, Feasibility from Ideas
             List<string> list = new();
 
             if(conn == null)
@@ -115,6 +94,8 @@ namespace WebAPI.Controllers
         [HttpPut("{id}")]
         public void Put(int id, [FromBody] string value)
         {
+            // Adds an Idea
+            Idea.AddIdea(value); 
         }
 
         // DELETE api/<IdeasController>/5
