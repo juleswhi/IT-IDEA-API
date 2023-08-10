@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-CLIENT\\IT-IDEA-DESKTOP\\IT-IDEA-DESKTOP\\IT-IDEA-DESKTOP.csproj",
+      "projectUniqueName": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-API\\DesktopClient\\IT-IDEA-DESKTOP.csproj",
       "projectName": "IT-IDEA-DESKTOP",
-      "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-CLIENT\\IT-IDEA-DESKTOP\\IT-IDEA-DESKTOP\\IT-IDEA-DESKTOP.csproj",
+      "projectPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-API\\DesktopClient\\IT-IDEA-DESKTOP.csproj",
       "packagesPath": "C:\\Users\\elliot alderson\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-CLIENT\\IT-IDEA-DESKTOP\\IT-IDEA-DESKTOP\\obj\\",
+      "outputPath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-API\\DesktopClient\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\elliot alderson\\AppData\\Roaming\\NuGet\\NuGet.Config",

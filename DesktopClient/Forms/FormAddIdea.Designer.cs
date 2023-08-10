@@ -28,27 +28,105 @@
         /// </summary>
         private void InitializeComponent()
         {
-            lblAddIdea = new Label();
+            txtBoxName = new TextBox();
+            lblName = new Label();
+            label1 = new Label();
+            txtBoxFeasibility = new TextBox();
+            label2 = new Label();
+            txtBoxDescription = new TextBox();
+            btnCreateIdea = new Button();
+            lblResult = new Label();
             SuspendLayout();
             // 
-            // lblAddIdea
+            // txtBoxName
             // 
-            lblAddIdea.AutoSize = true;
-            lblAddIdea.Dock = DockStyle.Top;
-            lblAddIdea.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
-            lblAddIdea.Location = new Point(0, 0);
-            lblAddIdea.Name = "lblAddIdea";
-            lblAddIdea.Size = new Size(54, 15);
-            lblAddIdea.TabIndex = 0;
-            lblAddIdea.Text = "Add Idea";
-            lblAddIdea.Click += lblAddIdea_Click;
+            txtBoxName.Location = new Point(125, 30);
+            txtBoxName.Name = "txtBoxName";
+            txtBoxName.Size = new Size(112, 23);
+            txtBoxName.TabIndex = 0;
+            // 
+            // lblName
+            // 
+            lblName.AutoSize = true;
+            lblName.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblName.ForeColor = Color.FromArgb(255, 246, 220);
+            lblName.Location = new Point(50, 27);
+            lblName.Name = "lblName";
+            lblName.Size = new Size(69, 26);
+            lblName.TabIndex = 1;
+            lblName.Text = "Name:";
+            // 
+            // label1
+            // 
+            label1.AutoSize = true;
+            label1.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label1.ForeColor = Color.FromArgb(255, 246, 220);
+            label1.Location = new Point(15, 71);
+            label1.Name = "label1";
+            label1.Size = new Size(104, 26);
+            label1.TabIndex = 3;
+            label1.Text = "Feasibility:";
+            // 
+            // txtBoxFeasibility
+            // 
+            txtBoxFeasibility.Location = new Point(125, 76);
+            txtBoxFeasibility.Name = "txtBoxFeasibility";
+            txtBoxFeasibility.Size = new Size(112, 23);
+            txtBoxFeasibility.TabIndex = 2;
+            // 
+            // label2
+            // 
+            label2.AutoSize = true;
+            label2.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            label2.ForeColor = Color.FromArgb(255, 246, 220);
+            label2.Location = new Point(4, 120);
+            label2.Name = "label2";
+            label2.Size = new Size(115, 26);
+            label2.TabIndex = 5;
+            label2.Text = "Description:";
+            // 
+            // txtBoxDescription
+            // 
+            txtBoxDescription.Location = new Point(125, 125);
+            txtBoxDescription.Name = "txtBoxDescription";
+            txtBoxDescription.Size = new Size(623, 23);
+            txtBoxDescription.TabIndex = 4;
+            // 
+            // btnCreateIdea
+            // 
+            btnCreateIdea.Font = new Font("Calibri", 14.25F, FontStyle.Bold, GraphicsUnit.Point);
+            btnCreateIdea.Location = new Point(350, 272);
+            btnCreateIdea.Name = "btnCreateIdea";
+            btnCreateIdea.Size = new Size(114, 55);
+            btnCreateIdea.TabIndex = 6;
+            btnCreateIdea.Text = "Create!";
+            btnCreateIdea.UseVisualStyleBackColor = true;
+            btnCreateIdea.Click += btnCreateIdea_Click;
+            // 
+            // lblResult
+            // 
+            lblResult.AutoSize = true;
+            lblResult.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
+            lblResult.ForeColor = Color.FromArgb(255, 246, 220);
+            lblResult.Location = new Point(365, 330);
+            lblResult.Name = "lblResult";
+            lblResult.Size = new Size(0, 26);
+            lblResult.TabIndex = 7;
             // 
             // FormAddIdea
             // 
             AutoScaleDimensions = new SizeF(7F, 15F);
             AutoScaleMode = AutoScaleMode.Font;
+            BackColor = Color.FromArgb(81, 43, 129);
             ClientSize = new Size(800, 450);
-            Controls.Add(lblAddIdea);
+            Controls.Add(lblResult);
+            Controls.Add(btnCreateIdea);
+            Controls.Add(label2);
+            Controls.Add(txtBoxDescription);
+            Controls.Add(label1);
+            Controls.Add(txtBoxFeasibility);
+            Controls.Add(lblName);
+            Controls.Add(txtBoxName);
             Name = "FormAddIdea";
             Text = ":q";
             ResumeLayout(false);
@@ -57,6 +135,13 @@
 
         #endregion
 
-        private Label lblAddIdea;
+        private TextBox txtBoxName;
+        private Label lblName;
+        private Label label1;
+        private TextBox txtBoxFeasibility;
+        private Label label2;
+        private TextBox txtBoxDescription;
+        private Button btnCreateIdea;
+        private Label lblResult;
     }
 }

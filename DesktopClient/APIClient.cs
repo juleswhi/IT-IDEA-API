@@ -1,4 +1,5 @@
 ﻿using System.Net.Http.Headers;
+using System.Text;
 using IT_IDEA_DESKTOP.Forms;
 namespace IT_IDEA_DESKTOP
 {
@@ -118,6 +119,22 @@ namespace IT_IDEA_DESKTOP
             IdeaHolder.Ideas = ideas;
             return ideas;
 
+        }
+
+
+
+
+        public static async Task<HttpResponseMessage> CreateIdeaAsync(Idea idea)
+        {
+
+            HttpClient client = new();
+            client.BaseAddress = new Uri(URL);
+            var requestContent = new StringContent($"\"{idea.Name},{idea.Description},{idea.Feasibility}\"", Encoding.UTF8, "application/json");
+
+            var response = await client.PutAsync("Ideas/69", requestContent);
+            response.EnsureSuccessStatusCode();
+
+            return response;
         }
 
 

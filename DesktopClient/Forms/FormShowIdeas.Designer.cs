@@ -47,9 +47,12 @@
             // 
             // DataGridView
             // 
+            DataGridView.AccessibleName = "Ideas";
             DataGridView.AutoGenerateColumns = false;
-            DataGridView.BorderStyle = BorderStyle.Fixed3D;
-            DataGridView.CellBorderStyle = DataGridViewCellBorderStyle.Raised;
+            DataGridView.BackgroundColor = Color.DarkGray;
+            DataGridView.BorderStyle = BorderStyle.None;
+            DataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
+            DataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
             DataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DataGridView.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, descriptionDataGridViewTextBoxColumn, feasibilityDataGridViewTextBoxColumn });
             DataGridView.DataSource = ideaBindingSource;

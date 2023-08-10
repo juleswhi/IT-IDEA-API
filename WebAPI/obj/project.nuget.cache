@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "8yewN4faFHSaxfSg1uC7+13flwyUtQp71hQEgnxDsbwEqxIvAjTQWvCs+o0c88i7gs+LeaDMTMmui4zFoo8lTw==",
+  "dgSpecHash": "nOaTyvM8eQIt327REd8+RpUZL74DXEgenD0uFACmDTdPIhy9pJ4MtUfWChYh9zd04VIpurwFEAXMs0SPHONHmQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT_Ideas\\WebAPI\\WebAPI\\WebAPI.csproj",
+  "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-API\\WebAPI\\WebAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\elliot alderson\\.nuget\\packages\\google.protobuf\\3.21.9\\google.protobuf.3.21.9.nupkg.sha512",
     "C:\\Users\\elliot alderson\\.nuget\\packages\\k4os.compression.lz4\\1.3.5\\k4os.compression.lz4.1.3.5.nupkg.sha512",

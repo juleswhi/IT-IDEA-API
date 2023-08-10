@@ -13,7 +13,7 @@ namespace WebAPI
         public static IEnumerable<Idea> ReadInDB()
         {
             List<Idea> Ideas = new();
-            string password = "";
+            string password = "Pawelek6992425#";
             string connStr = $"server=176.58.104.78;user=user;database=it_ideas;password={password};";
 
             MySqlConnection conn = new MySqlConnection(connStr);
@@ -57,7 +57,7 @@ namespace WebAPI
                 if (i.Id == nextId) nextId++;
             }
 
-            string password = "";
+            string password = "Pawelek6992425#";
             string connStr = $"server=176.58.104.78;user=user;database=it_ideas;password={password}";
 
             MySqlConnection conn = new MySqlConnection(connStr);

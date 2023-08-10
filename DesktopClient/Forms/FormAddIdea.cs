@@ -23,5 +23,23 @@ namespace IT_IDEA_DESKTOP.Forms
 
             ((Label)sender).Text = names[0];
         }
+
+        private async void btnCreateIdea_Click(object sender, EventArgs e)
+        {
+            // Call API to create Idea
+            HttpResponseMessage res = await APIClient.CreateIdeaAsync(new Idea()
+            {
+                Id = "23",
+                Name = txtBoxName.Text,
+                Description = txtBoxDescription.Text,
+                Feasibility = txtBoxFeasibility.Text,
+            });
+
+            if (res.IsSuccessStatusCode)
+            {
+                lblResult.Text = "Success!";
+            }
+
+        }
     }
 }
