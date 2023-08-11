@@ -127,9 +127,11 @@ namespace IT_IDEA_DESKTOP
         public static async Task<HttpResponseMessage> CreateIdeaAsync(Idea idea)
         {
 
+            // No astericks??
+
             HttpClient client = new();
             client.BaseAddress = new Uri(URL);
-            var requestContent = new StringContent($"\"{idea.Name},{idea.Description},{idea.Feasibility}\"", Encoding.UTF8, "application/json");
+            var requestContent = new StringContent($"\"{idea.Name},{idea.Description},{idea.Feasibility}\"", Encoding.UTF8, "application/json"); 
 
             var response = await client.PutAsync("Ideas/69", requestContent);
             response.EnsureSuccessStatusCode();

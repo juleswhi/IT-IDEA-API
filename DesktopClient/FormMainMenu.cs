@@ -73,5 +73,14 @@ namespace IT_IDEA_DESKTOP
             lblTitle.Text = Name;
         }
 
+        private void btnShowSubIdea_Click(object sender, EventArgs e)
+        {
+
+        }
+
+        private void btnAddSubIdea_Click(object sender, EventArgs e)
+        {
+
+        }
     }
 }

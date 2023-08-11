@@ -40,7 +40,7 @@
             // 
             // txtBoxName
             // 
-            txtBoxName.Location = new Point(125, 30);
+            txtBoxName.Location = new Point(177, 27);
             txtBoxName.Name = "txtBoxName";
             txtBoxName.Size = new Size(112, 23);
             txtBoxName.TabIndex = 0;
@@ -50,7 +50,7 @@
             lblName.AutoSize = true;
             lblName.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             lblName.ForeColor = Color.FromArgb(255, 246, 220);
-            lblName.Location = new Point(50, 27);
+            lblName.Location = new Point(85, 27);
             lblName.Name = "lblName";
             lblName.Size = new Size(69, 26);
             lblName.TabIndex = 1;
@@ -63,13 +63,13 @@
             label1.ForeColor = Color.FromArgb(255, 246, 220);
             label1.Location = new Point(15, 71);
             label1.Name = "label1";
-            label1.Size = new Size(104, 26);
+            label1.Size = new Size(139, 26);
             label1.TabIndex = 3;
-            label1.Text = "Feasibility:";
+            label1.Text = "Feasibility X/5:";
             // 
             // txtBoxFeasibility
             // 
-            txtBoxFeasibility.Location = new Point(125, 76);
+            txtBoxFeasibility.Location = new Point(177, 74);
             txtBoxFeasibility.Name = "txtBoxFeasibility";
             txtBoxFeasibility.Size = new Size(112, 23);
             txtBoxFeasibility.TabIndex = 2;
@@ -79,7 +79,7 @@
             label2.AutoSize = true;
             label2.Font = new Font("Calibri", 15.75F, FontStyle.Regular, GraphicsUnit.Point);
             label2.ForeColor = Color.FromArgb(255, 246, 220);
-            label2.Location = new Point(4, 120);
+            label2.Location = new Point(39, 120);
             label2.Name = "label2";
             label2.Size = new Size(115, 26);
             label2.TabIndex = 5;
@@ -87,9 +87,9 @@
             // 
             // txtBoxDescription
             // 
-            txtBoxDescription.Location = new Point(125, 125);
+            txtBoxDescription.Location = new Point(177, 125);
             txtBoxDescription.Name = "txtBoxDescription";
-            txtBoxDescription.Size = new Size(623, 23);
+            txtBoxDescription.Size = new Size(584, 23);
             txtBoxDescription.TabIndex = 4;
             // 
             // btnCreateIdea

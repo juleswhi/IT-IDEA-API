@@ -29,6 +29,8 @@
         private void InitializeComponent()
         {
             components = new System.ComponentModel.Container();
+            DataGridViewCellStyle dataGridViewCellStyle1 = new DataGridViewCellStyle();
+            DataGridViewCellStyle dataGridViewCellStyle2 = new DataGridViewCellStyle();
             formAddIdeaBindingSource = new BindingSource(components);
             DataGridView = new DataGridView();
             idDataGridViewTextBoxColumn = new DataGridViewTextBoxColumn();
@@ -48,18 +50,39 @@
             // DataGridView
             // 
             DataGridView.AccessibleName = "Ideas";
+            DataGridView.AllowUserToAddRows = false;
+            DataGridView.AllowUserToDeleteRows = false;
             DataGridView.AutoGenerateColumns = false;
             DataGridView.BackgroundColor = Color.DarkGray;
             DataGridView.BorderStyle = BorderStyle.None;
             DataGridView.CellBorderStyle = DataGridViewCellBorderStyle.SingleVertical;
             DataGridView.ColumnHeadersBorderStyle = DataGridViewHeaderBorderStyle.Single;
+            dataGridViewCellStyle1.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle1.BackColor = SystemColors.Control;
+            dataGridViewCellStyle1.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle1.ForeColor = SystemColors.WindowText;
+            dataGridViewCellStyle1.SelectionBackColor = Color.SeaGreen;
+            dataGridViewCellStyle1.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle1.WrapMode = DataGridViewTriState.True;
+            DataGridView.ColumnHeadersDefaultCellStyle = dataGridViewCellStyle1;
             DataGridView.ColumnHeadersHeightSizeMode = DataGridViewColumnHeadersHeightSizeMode.AutoSize;
             DataGridView.Columns.AddRange(new DataGridViewColumn[] { idDataGridViewTextBoxColumn, nameDataGridViewTextBoxColumn, descriptionDataGridViewTextBoxColumn, feasibilityDataGridViewTextBoxColumn });
             DataGridView.DataSource = ideaBindingSource;
+            dataGridViewCellStyle2.Alignment = DataGridViewContentAlignment.MiddleLeft;
+            dataGridViewCellStyle2.BackColor = SystemColors.Window;
+            dataGridViewCellStyle2.Font = new Font("Segoe UI", 9F, FontStyle.Regular, GraphicsUnit.Point);
+            dataGridViewCellStyle2.ForeColor = SystemColors.ControlText;
+            dataGridViewCellStyle2.SelectionBackColor = Color.SeaGreen;
+            dataGridViewCellStyle2.SelectionForeColor = SystemColors.HighlightText;
+            dataGridViewCellStyle2.WrapMode = DataGridViewTriState.False;
+            DataGridView.DefaultCellStyle = dataGridViewCellStyle2;
             DataGridView.Dock = DockStyle.Fill;
             DataGridView.Location = new Point(0, 0);
             DataGridView.Name = "DataGridView";
+            DataGridView.ReadOnly = true;
+            DataGridView.RowHeadersWidthSizeMode = DataGridViewRowHeadersWidthSizeMode.AutoSizeToFirstHeader;
             DataGridView.RowTemplate.Height = 25;
+            DataGridView.SelectionMode = DataGridViewSelectionMode.CellSelect;
             DataGridView.Size = new Size(800, 450);
             DataGridView.TabIndex = 0;
             // 
@@ -68,24 +91,28 @@
             idDataGridViewTextBoxColumn.DataPropertyName = "Id";
             idDataGridViewTextBoxColumn.HeaderText = "Id";
             idDataGridViewTextBoxColumn.Name = "idDataGridViewTextBoxColumn";
+            idDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // nameDataGridViewTextBoxColumn
             // 
             nameDataGridViewTextBoxColumn.DataPropertyName = "Name";
             nameDataGridViewTextBoxColumn.HeaderText = "Name";
             nameDataGridViewTextBoxColumn.Name = "nameDataGridViewTextBoxColumn";
+            nameDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // descriptionDataGridViewTextBoxColumn
             // 
             descriptionDataGridViewTextBoxColumn.DataPropertyName = "Description";
             descriptionDataGridViewTextBoxColumn.HeaderText = "Description";
             descriptionDataGridViewTextBoxColumn.Name = "descriptionDataGridViewTextBoxColumn";
+            descriptionDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // feasibilityDataGridViewTextBoxColumn
             // 
             feasibilityDataGridViewTextBoxColumn.DataPropertyName = "Feasibility";
             feasibilityDataGridViewTextBoxColumn.HeaderText = "Feasibility";
             feasibilityDataGridViewTextBoxColumn.Name = "feasibilityDataGridViewTextBoxColumn";
+            feasibilityDataGridViewTextBoxColumn.ReadOnly = true;
             // 
             // ideaBindingSource
             // 
