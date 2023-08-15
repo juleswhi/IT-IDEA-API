@@ -69,7 +69,7 @@
             // 
             // txtBoxFeasibility
             // 
-            txtBoxFeasibility.Location = new Point(177, 74);
+            txtBoxFeasibility.Location = new Point(177, 76);
             txtBoxFeasibility.Name = "txtBoxFeasibility";
             txtBoxFeasibility.Size = new Size(112, 23);
             txtBoxFeasibility.TabIndex = 2;

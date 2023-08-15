@@ -12,5 +12,15 @@ namespace IT_IDEA_DESKTOP.Forms
             DataGridView.DataSource = Ideas;
         }
 
+        private void DataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+            var senderGrid = (DataGridView)sender;
+            if (senderGrid.Columns[e.ColumnIndex] is DataGridViewButtonColumn &&
+                e.RowIndex >= 0)
+            {
+                var row = senderGrid.Rows[1];
+                lblTest.Text = DataGridView.Rows[e.RowIndex].Cells[1].Value.ToString();
+            }
+        }
     }
 }

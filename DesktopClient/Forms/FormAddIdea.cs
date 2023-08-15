@@ -39,7 +39,7 @@ namespace IT_IDEA_DESKTOP.Forms
                 lblResult.Text = "Please Only Use a Number for feasibility";
                 return;
             }
-            if(a > 5 || a < 0)
+            if (a > 5 || a < 0)
             {
                 lblResult.Text = "Please Make Feasibility A Number Between 1 and 5";
                 return;

@@ -29,7 +29,6 @@ namespace WebAPI.Controllers
 
             try { conn.Open(); } catch { return new string[] { "Failure" }; }
 
-
             string sql = "select * from Ideas";
 
             MySqlCommand cmd = new MySqlCommand(sql, conn);

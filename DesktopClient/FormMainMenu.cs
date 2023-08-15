@@ -51,10 +51,6 @@ namespace IT_IDEA_DESKTOP
             OpenChildForm(new Forms.FormShowIdeas(), sender, "Ideas");
         }
 
-        private void btnAddIdea_Click(object sender, EventArgs e)
-        {
-            OpenChildForm(new Forms.FormAddIdea(), sender, "Add Idea");
-        }
 
         private void OpenChildForm(Form childForm, object btnSender, string Name)
         {
@@ -81,6 +77,11 @@ namespace IT_IDEA_DESKTOP
         private void btnAddSubIdea_Click(object sender, EventArgs e)
         {
 
+        }
+
+        private void btnAddIdea_Click(object sender, EventArgs e)
+        {
+            OpenChildForm(new Forms.FormAddIdea(), sender, "Add Idea");
         }
     }
 }

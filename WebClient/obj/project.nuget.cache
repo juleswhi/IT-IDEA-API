@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "YdpUYVCGFjCI6lcZs1vpUT2rKCGJE26HHEF/vLrSOux1vE/KoCzz9NEoCp5rezY5ChG6Hrb9rnX0f8FF9af6Gw==",
+  "dgSpecHash": "ILqXNkRShb9otDY0aDtvTyQOVmKoz2FPrDZS6b5QN3qVVLkMLQu7zEMy0gJUKvKln/xkKB3ydZxporUjipHMiw==",
   "success": true,
   "projectFilePath": "C:\\Users\\elliot alderson\\Documents\\GitHub\\IT-IDEA-API\\WebClient\\WebClient.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.8\\microsoft.netcore.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.8\\microsoft.windowsdesktop.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.8\\microsoft.aspnetcore.app.ref.7.0.8.nupkg.sha512",
-    "C:\\Users\\elliot alderson\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.8\\microsoft.netcore.app.host.win-x64.7.0.8.nupkg.sha512"
-  ],
+  "expectedPackageFiles": [],
   "logs": []
 }

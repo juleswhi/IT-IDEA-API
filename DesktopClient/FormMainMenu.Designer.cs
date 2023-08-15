@@ -29,14 +29,14 @@
         private void InitializeComponent()
         {
             PanelMenu = new Panel();
+            btnAddSubIdea = new Button();
+            btnAddIdea = new Button();
+            btnShowSubIdea = new Button();
             btnIdeas = new Button();
             PanelLogo = new Panel();
             PanelTitle = new Panel();
             lblTitle = new Label();
             PanelDesktop = new Panel();
-            btnShowSubIdea = new Button();
-            btnAddIdea = new Button();
-            btnAddSubIdea = new Button();
             PanelMenu.SuspendLayout();
             PanelTitle.SuspendLayout();
             SuspendLayout();
@@ -54,6 +54,51 @@
             PanelMenu.Name = "PanelMenu";
             PanelMenu.Size = new Size(169, 450);
             PanelMenu.TabIndex = 0;
+            // 
+            // btnAddSubIdea
+            // 
+            btnAddSubIdea.Dock = DockStyle.Top;
+            btnAddSubIdea.FlatAppearance.BorderSize = 0;
+            btnAddSubIdea.FlatStyle = FlatStyle.Flat;
+            btnAddSubIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAddSubIdea.ForeColor = Color.FromArgb(255, 246, 220);
+            btnAddSubIdea.Location = new Point(0, 330);
+            btnAddSubIdea.Name = "btnAddSubIdea";
+            btnAddSubIdea.Size = new Size(169, 85);
+            btnAddSubIdea.TabIndex = 6;
+            btnAddSubIdea.Text = "Add Sub Idea";
+            btnAddSubIdea.UseVisualStyleBackColor = true;
+            btnAddSubIdea.Click += btnAddSubIdea_Click;
+            // 
+            // btnAddIdea
+            // 
+            btnAddIdea.Dock = DockStyle.Top;
+            btnAddIdea.FlatAppearance.BorderSize = 0;
+            btnAddIdea.FlatStyle = FlatStyle.Flat;
+            btnAddIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btnAddIdea.ForeColor = Color.FromArgb(255, 246, 220);
+            btnAddIdea.Location = new Point(0, 245);
+            btnAddIdea.Name = "btnAddIdea";
+            btnAddIdea.Size = new Size(169, 85);
+            btnAddIdea.TabIndex = 5;
+            btnAddIdea.Text = "Add Idea";
+            btnAddIdea.UseVisualStyleBackColor = true;
+            btnAddIdea.Click += btnAddIdea_Click;
+            // 
+            // btnShowSubIdea
+            // 
+            btnShowSubIdea.Dock = DockStyle.Top;
+            btnShowSubIdea.FlatAppearance.BorderSize = 0;
+            btnShowSubIdea.FlatStyle = FlatStyle.Flat;
+            btnShowSubIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
+            btnShowSubIdea.ForeColor = Color.FromArgb(255, 246, 220);
+            btnShowSubIdea.Location = new Point(0, 160);
+            btnShowSubIdea.Name = "btnShowSubIdea";
+            btnShowSubIdea.Size = new Size(169, 85);
+            btnShowSubIdea.TabIndex = 4;
+            btnShowSubIdea.Text = "View Sub Ideas";
+            btnShowSubIdea.UseVisualStyleBackColor = true;
+            btnShowSubIdea.Click += btnShowSubIdea_Click;
             // 
             // btnIdeas
             // 
@@ -108,50 +153,6 @@
             PanelDesktop.Name = "PanelDesktop";
             PanelDesktop.Size = new Size(631, 375);
             PanelDesktop.TabIndex = 2;
-            // 
-            // btnShowSubIdea
-            // 
-            btnShowSubIdea.Dock = DockStyle.Top;
-            btnShowSubIdea.FlatAppearance.BorderSize = 0;
-            btnShowSubIdea.FlatStyle = FlatStyle.Flat;
-            btnShowSubIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btnShowSubIdea.ForeColor = Color.FromArgb(255, 246, 220);
-            btnShowSubIdea.Location = new Point(0, 160);
-            btnShowSubIdea.Name = "btnShowSubIdea";
-            btnShowSubIdea.Size = new Size(169, 85);
-            btnShowSubIdea.TabIndex = 4;
-            btnShowSubIdea.Text = "View Sub Ideas";
-            btnShowSubIdea.UseVisualStyleBackColor = true;
-            btnShowSubIdea.Click += btnShowSubIdea_Click;
-            // 
-            // btnAddIdea
-            // 
-            btnAddIdea.Dock = DockStyle.Top;
-            btnAddIdea.FlatAppearance.BorderSize = 0;
-            btnAddIdea.FlatStyle = FlatStyle.Flat;
-            btnAddIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAddIdea.ForeColor = Color.FromArgb(255, 246, 220);
-            btnAddIdea.Location = new Point(0, 245);
-            btnAddIdea.Name = "btnAddIdea";
-            btnAddIdea.Size = new Size(169, 85);
-            btnAddIdea.TabIndex = 5;
-            btnAddIdea.Text = "Add Idea";
-            btnAddIdea.UseVisualStyleBackColor = true;
-            // 
-            // btnAddSubIdea
-            // 
-            btnAddSubIdea.Dock = DockStyle.Top;
-            btnAddSubIdea.FlatAppearance.BorderSize = 0;
-            btnAddSubIdea.FlatStyle = FlatStyle.Flat;
-            btnAddSubIdea.Font = new Font("Candara Light", 18F, FontStyle.Regular, GraphicsUnit.Point);
-            btnAddSubIdea.ForeColor = Color.FromArgb(255, 246, 220);
-            btnAddSubIdea.Location = new Point(0, 330);
-            btnAddSubIdea.Name = "btnAddSubIdea";
-            btnAddSubIdea.Size = new Size(169, 85);
-            btnAddSubIdea.TabIndex = 6;
-            btnAddSubIdea.Text = "Add Sub Idea";
-            btnAddSubIdea.UseVisualStyleBackColor = true;
-            btnAddSubIdea.Click += btnAddSubIdea_Click;
             // 
             // FormMainMenu
             // 

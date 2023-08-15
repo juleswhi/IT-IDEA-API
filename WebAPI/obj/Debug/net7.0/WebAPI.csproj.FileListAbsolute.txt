@@ -96,7 +96,6 @@ C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\We
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\WebAPI.csproj.CoreCompileInputs.cache
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cs
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\WebAPI.MvcApplicationPartsAssemblyInfo.cache
-C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\WebAPI.sourcelink.json
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\staticwebassets.build.json
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\staticwebassets.development.json
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebAPI\obj\Debug\net7.0\staticwebassets\msbuild.WebAPI.Microsoft.AspNetCore.StaticWebAssets.props

@@ -29,3 +29,4 @@ C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebClient\obj\Debug\net7.0
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebClient\obj\Debug\net7.0\WebClient.pdb
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebClient\obj\Debug\net7.0\WebClient.genruntimeconfig.cache
 C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebClient\obj\Debug\net7.0\ref\WebClient.dll
+C:\Users\elliot alderson\Documents\GitHub\IT-IDEA-API\WebClient\obj\Debug\net7.0\WebClient.csproj.AssemblyReference.cache
